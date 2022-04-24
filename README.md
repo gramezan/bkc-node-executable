@@ -45,7 +45,7 @@ folders on your server (They are already on the emptyDB folder). Then, using the
 $ sudo mongorestore --db iabroker --drop /root/db-dump/iabroker
 ```
 ```db
-$ sudo mongorestore --db iabroker --drop /root/db-dump/iasystem
+$ sudo mongorestore --db iasystem --drop /root/db-dump/iasystem
 ```
 note: If you need unzip your files, you can use these commands:
 ```zip
