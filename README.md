@@ -1,4 +1,4 @@
-# Running BKC node on your server ![img.png](config/bkcfilesSCH.png)
+# Running BKC node on your server
 
 ## 1- Install MongoDB
 ### Step 1 — Installing MongoDB
@@ -86,7 +86,7 @@ $ sudo npm install jsonschema@1.2.6
 ### Step 2 — Download iabroker-server
 #### Download the file from this address: https://blocklychain.io/BKC-Application/iabroker-server
 #### Upload "iabroker-server" on your server
-![img.png](config/filesSCH.png)
+
 
 
 ## 5- Install pm2 
@@ -237,7 +237,6 @@ $ openssl x509 -outform der -in iabroker.certificate.crt -out iabroker.certifica
 
 ## 8-Config your BKC Node
 
-![img.png](config/configfilesSCH.png)
 
 ### Step 1- Update config/fingerprint.json
 
