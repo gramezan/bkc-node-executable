@@ -42,10 +42,10 @@ $ sudo systemctl enable mongod
 folders on your server (They are already on the emptyDB folder). Then, using the following commands import the empty databses to your Mongodb. These folders are availeb on project GitHub. 
 (Intenral note, "$ mongodump" command can be used to export an existing Monogdb database.)
 ```db
-$ sudo mongorestore --db iabroker --drop /root/db-dump/iabroker
+$ sudo mongorestore --db iabroker --drop db-dump/iabroker
 ```
 ```db
-$ sudo mongorestore --db iasystem --drop /root/db-dump/iasystem
+$ sudo mongorestore --db iasystem --drop db-dump/iasystem
 ```
 note: If you need unzip your files, you can use these commands:
 ```zip
