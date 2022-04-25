@@ -230,6 +230,8 @@ $ sudo apt-get install certbot
 $ systemctl stop nginx
 $ certbot certonly --standalone --preferred-challenges http -d cl.blocklychain.io
 ```
+### Certificates are saved in: /etc/letsencrypt/live/<YOUR DOMAINS>
+
 ### Converting Certificates (If you need, not necessary):
 ```convert
 $ openssl x509 -outform der -in webpublic.pem -out webpublic.crt
