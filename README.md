@@ -299,7 +299,10 @@ public/share/images/logo-h-cpvanda.png
 ## 9- Run your BKC Node
 in the root folder of project run the program:
 ```run
-$ ./iabroker-server
+### Delete the file extension (.bin)
+$ sudo chmod +x iabroker-server
+$ pm2 start iabroker-server
+$ pm2 list
 ```
 
 
