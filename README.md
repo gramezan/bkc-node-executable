@@ -226,11 +226,11 @@ $ sudo apt-get install certbot
 ```
 
 ### note:Stop Nginx before getting the certificate
+### Certificates are saved in: /etc/letsencrypt/live/'<YOUR DOMAINS>'
 ```cert
 $ systemctl stop nginx
 $ certbot certonly --standalone --preferred-challenges http -d cl.blocklychain.io
 ```
-### Certificates are saved in: /etc/letsencrypt/live/<YOUR DOMAINS>
 
 ### Converting Certificates (If you need, not necessary):
 ```convert
