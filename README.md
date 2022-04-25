@@ -224,7 +224,10 @@ $ sudo apt-get update
 ```cert
 $ sudo apt-get install certbot
 ```
+
+### note:Stop Nginx before getting the certificate
 ```cert
+$ systemctl stop nginx
 $ certbot certonly --standalone --preferred-challenges http -d cl.blocklychain.io
 ```
 ### Converting Certificates (If you need, not necessary):
